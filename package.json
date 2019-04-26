@@ -4,6 +4,7 @@
   "description": "SongsDb Implementation",
   "main": "songs-db.js",
   "scripts": {
+    "test": "node tests/*.test.js",
     "setup": "node setup",
     "lint": "standard",
     "lint:fix": "standard --fix"
@@ -12,7 +13,8 @@
   "author": "Julián Duque <julian@nodesource.com>",
   "license": "ISC",
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
   },
   "dependencies": {
     "sequelize": "^5.7.4",
